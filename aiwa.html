@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiwashop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="aiwa.css/aiwawa.css">
+
+</head>
+
+<body>
+    <div id="carouselExampleRide" class="carousel slide p-5" data-bs-ride="true" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgg/2.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgg/1.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgg/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgg/365895240_238135335866044_8204032703493239237_n.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  <div class="row row-cols-1 row-cols-md-4 g-2">
+    <div class="col">
+      <div class="card">
+        <img src="imgg/sunbock.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">smooth sunbock</h5>
+          <p class="card-text">Gentle skin care suitable for all skin types, helps harden the skin. </p>
+          <p style="color: gray; font-size: 25px;">price : <span id="priceSkin">190</span>bath</p>
+            <div class="wrapper" >
+                <span class="minus">-</span>
+                <span class="num">0</span>
+                <span class="plus">+</span>
+            </div>
+
+            <script class="result">
+                const plus = document.querySelector(".plus"),
+                     minus = document.querySelector(".minus"),
+                    num = document.querySelector(".num");
+
+                    let a=0;
+
+                    plus.addEventListener("click",()=>{
+                        a++;
+                        num.innerText =a;
+                        console.log(a);
+                    });
+
+                    
+                    minus.addEventListener("click",()=>{
+                        if(a){
+                            a--;
+                            num.innerText=a;
+                        }
+                    });
+
+                    
+                
+            </script>
+
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="imgg/glossy.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">glossy glow</h5>
+          <p class="card-text">Gentle skin care suitable for all skin types, helps harden the skin. </p>
+          <p style="color: gray; font-size: 25px;">price : <span id="priceSkin1">169</span>bath</p>
+          <div class="wrapper1" id="result1">
+              <span class="minus1">-</span>
+              <span class="num1">0</span>
+              <span class="plus1">+</span>
+          </div>
+
+          <script class="result1">
+              const plus1 = document.querySelector(".plus1"),
+                   minus1 = document.querySelector(".minus1"),
+                  num1 = document.querySelector(".num1");
+
+                  let aa=0;
+
+                  plus1.addEventListener("click",()=>{
+                      aa++;
+                      num1.innerText =aa;
+                      console.log(aa);
+                      
+                  });
+
+                  
+                  minus1.addEventListener("click",()=>{
+                      if(aa){
+                          aa --;
+                          num1.innerText=aa;
+                      }
+                  });
+
+                  
+              
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="imgg/soup.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">grape soap</h5>
+          <p class="card-text">Gentle skin care suitable for all skin types, helps harden the skin. .</p>
+          <p style="color: gray; font-size: 25px;">price : <span id="priceSkin2">440</span>bath</p>
+            <div class="wrapper2" >
+                <span class="minus2">-</span>
+                <span class="num2">0</span>
+                <span class="plus2">+</span>
+            </div>
+
+            <script class="result2">
+                const plus2 = document.querySelector(".plus2"),
+                     minus2 = document.querySelector(".minus2"),
+                    num2 = document.querySelector(".num2");
+
+                    let ab=0;
+
+                    plus2.addEventListener("click",()=>{
+                        ab++;
+                        num2.innerText =ab;
+                        console.log(ab);
+                        
+                    });
+
+                    
+                    minus2.addEventListener("click",()=>{
+                        if(ab){
+                            ab--;
+                            num2.innerText=ab;
+                        }
+                    });
+
+                    
+                
+            </script>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="imgg/sr.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">scrub satida</h5>
+          <p class="card-text">Gentle skin care suitable for all skin types, helps harden the skin. </p>
+          <p style="color: gray; font-size: 25px;">price : <span id="priceSkin3">300</span>bath</p>
+          
+            <div class="wrapper3" >
+                <span class="minus3">-</span>
+                <span class="num3">0</span>
+                <span class="plus3">+</span>
+            </div>
+
+            <script class="result3">
+                const plus3 = document.querySelector(".plus3"),
+                     minus3 = document.querySelector(".minus3"),
+                    num3 = document.querySelector(".num3");
+
+                    let ac=0;
+
+                    plus3.addEventListener("click",()=>{
+                        ac++;
+                        num3.innerText =ac;
+                        console.log(ac);
+                    });
+
+                
+                minus3.addEventListener("click",()=>{
+                    if(ac){
+                        ac--;
+                        ac = (ac<1000)?ac:ac;
+                        num3.innerText=ac;
+                    }
+                });  
+        </script>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <form class="form-fieldset2">
+      <fieldset class="shadow p-3 mb-5 bg-body-tertiry rounded d-flex flex-column justify-content-center align-items-center text-center"  >
+  
+        <p>จำนวนสินค้าทั้งหมด: <span id="unitzz">0</span> ชิ้น</p>
+        <p>ราคารวมก่อนลด: <span id="totalPriceAf">0.00</span> บาท</p>
+        <p>ส่วนลดที่ได้รับ10%: <span id="discount">0.00</span> บาท</p>
+        <p>ราคารวมหลังลด: <span id="totalPrice">0.00</span> บาท</p>
+      </fieldset>
+    </form>
+  </div>
+  
+
+
+<div class="bttn">
+  <div class="d-flex justify-content-center align-items-center">
+    <button type="button" class="btn btn-custom bttn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">สั่งซื้อสินค้า</button>
+  </div>
+  
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">คำสั่งซื้อ</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">ชื่อ-นามสกุลผู้รับ:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">ที่อยู่ผู้รับ:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+          <button type="button" class="btn btn-primary">สั่งซื้อสินค้า</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="aiwa.css/aiwa.js"></script>
+</body>
+
+<footer>
+
+
+</footer>
+</html>
